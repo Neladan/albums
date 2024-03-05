@@ -11,7 +11,12 @@ const AlbumDetail = () => {
     }, []);
     return (
         <div>
-
+            <h1>Album Detail</h1>
+            <ul>
+                {albumDetail.map((album) => (
+                    <li key={album.id}>{album.title}</li>
+                ))}
+            </ul>
         </div>
     );
 };
