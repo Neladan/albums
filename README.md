@@ -16,7 +16,7 @@ To run the project, use the command: `npm run dev`
 
 ## Features
 
-- Fetches album data from {JSONPlaceholder API]()
+- Fetches album data from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/)
 - Displays the album titles in a list
 
 ## Dependencies
